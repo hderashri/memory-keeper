@@ -1,8 +1,11 @@
 To run the code:  
 
 1. Goto `server` -> `index.js` -> `line 19` and change the credentials according to your MongoDB connection  
-2. `cd Memories-Keeper`  
-3. Open two consoles:  
+2. Go to `https://console.cloud.google.com/apis` and create a new project. Create an account, if necessary and give any name to the project  
+3. Go to `Credentials` of the project app and add `http://localhost:3000` under `Authorized JavaScript origins` URIs  
+4. And also, add `http://localhost:3000` and `http://localhost:3000/auth` under `Authorized redirect URIs` URIs
+5. `cd Memories-Keeper`  
+6. Open two consoles:  
 
 On console 1-  
 `cd client`  
