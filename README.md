@@ -1,4 +1,4 @@
-To run the code:  
+## Steps to run:  
 
 1. Goto `server` -> `index.js` -> `line 19` and change the credentials according to your MongoDB connection  
 2. Go to `https://console.cloud.google.com/apis` and create a new project. Create an account, if necessary and give any name to the project  
